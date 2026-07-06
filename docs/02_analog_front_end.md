@@ -130,26 +130,26 @@ Because the local mains frequency is 60 Hz, the ECG signal may contain strong ma
 
 A notch filter can be used to attenuate this component.
 
-Current status:
+### Current status:
 
 60 Hz notch filter status: Implemented by software
 
 Possible implementations:
 
-Analog Twin-T notch filter
-Active notch filter
-Digital IIR notch filter in Python
-Digital notch filter in the microcontroller
-Output to ADC
+- Analog Twin-T notch filter
+- Active notch filter
+- Digital IIR notch filter in Python
+- Digital notch filter in the microcontroller
+- Output to ADC
 
 The final analog signal is sent to an ADC or microcontroller input.
 
 ## Possible acquisition devices:
 
-ESP32 internal ADC
-Arduino ADC
-ADS1115 external ADC and arduino, ESP32, STM32, etc
-Other external ADC module
+- ESP32 internal ADC
+- Arduino ADC
+- ADS1115 external ADC and arduino, ESP32, STM32, etc
+- Other external ADC module and microcontrollers
 
 ## Important considerations:
 
