@@ -99,7 +99,7 @@ Main limitations:
 - The signal quality depends strongly on electrode placement and cable shielding.
 - The current design still requires more testing and optimization.
 
-##Future Work
+## Future Work
 
 Planned future improvements:
 
